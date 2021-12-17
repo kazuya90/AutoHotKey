@@ -1,0 +1,16 @@
+#SingleInstance, Force
+SendMode Input
+SetWorkingDir, %A_ScriptDir%
+
+#IfWinActive, ahk_exe .exe
+vk1C & e::
+vk1C & Space::
+vk1C & b::
+vk1C & t::
+vk1C & j::
+vk1C & k::
+vk1C & ,::
+vk1C & .::
+
+Return
+#ifWinActive
